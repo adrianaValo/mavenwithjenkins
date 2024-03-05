@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("simple")
 public class SimpleController {
 
-	@GetMapping(value = "/")
+	@GetMapping(value = "")
 	public String sayHello() {
-		return "Welcome to spring rest api";
+		return "Welcome to spring rest api created by Akash!";
 	}
 }
