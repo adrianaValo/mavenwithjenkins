@@ -9,5 +9,5 @@ public class HelloController {
 	@GetMapping(value = "/")
 	public String sayHello() {
 		return "Welcome to Spring boot with AWS using EC2 instance created akash";
-	}
+	
 }
