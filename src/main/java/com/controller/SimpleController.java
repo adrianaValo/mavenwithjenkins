@@ -10,6 +10,6 @@ public class SimpleController {
 
 	@GetMapping(value = "")
 	public String sayHello() {
-		return "Welcome to spring rest api created by Akash!";
+		return "Welcome to spring rest api created by Adriana!";
 	}
 }
